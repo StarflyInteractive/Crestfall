@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Game Title</title>
+    <style>
+        @font-face {
+            font-family: 'Action_Man';
+            src: url('Action_Man.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Action_Man', sans-serif;
+            text-shadow: 1px 1px #092635;
+            background-color: #1B4242;
+            color: #333;
+        }
+
+        header {
+            background: url('header-background.gif') center/cover no-repeat;
+            color: #9EC8B9;
+            text-align: center;
+            padding: 3em 0;
+			font-size: 16px;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        #download-buttons {
+            margin-top: 2em;
+            background: url('Download.gif') center/cover no-repeat;
+            color: #fff;
+            padding: 2em;
+            border-radius: 8px;
+        }
+
+        #game-description {
+            margin-top: 2em;
+            background: url('des-background.png') center/cover no-repeat;
+            color: #9EC8B9;
+            padding: 2em;
+            border-radius: 8px;
+            font-size: 20px;
+			            font-weight: bold;
+        }
+
+        #showcase {
+            margin-top: 2em;
+            overflow: hidden;
+        }
+
+        #showcase img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1em;
+        }
+
+        .download-button {
+            display: inline-block;
+            margin: 0 1em;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            padding: 1em 2em;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Slideshow */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        .mySlides {
+        }
+
+        .slideshow-container img {
+            width: 100%;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Crestfall</h1>
+    </header>
+
+    <section id="download-buttons">
+        <h2>Download the latest beta!</h2>
+        <p>Beta, community and socials available:</p>
+        <a href="#your-download-link-for-windows" class="download-button">join our Discord community</a>
+        <a href="#your-download-link-for-mac" class="download-button">download Beta 0.0.6</a>
+        <a href="#your-download-link-for-linux" class="download-button">follow on Social media</a>
+    </section>
+
+    <section id="game-description">
+        <h2>About the Game</h2>
+        <p>Crestfall is an upcoming open world sandbox survival where the possibilities are endless.</p>
+        <p>From crafting weapons to defend your small base to combining and experimenting with different types of spells, Crestfall has it all.</p>
+        <p>Escape this mysterious island or uncover all its mysteries... or just do both...</p>
+        <p>Getting newer content with each patch every month, Crestfall never gets boring.</p>
+        <p>Join the community and be a part of this unique sandbox survival's birth.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Crestfall. All rights reserved.
+    </footer>
+</body>
+</html>
